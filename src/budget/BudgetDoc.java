@@ -112,7 +112,7 @@ public class BudgetDoc {
         return docxFile;
     }
 
-    public void zipFiles(ArrayList<File> files, String destZipFile) throws Exception {
+    private void zipFiles(ArrayList<File> files, String destZipFile) throws Exception {
         if (files.size() > 0) {
             ZipOutputStream zip = null;
             FileOutputStream fileWriter = null;
