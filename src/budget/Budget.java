@@ -119,7 +119,7 @@ public abstract class Budget {
     }
 
     public final int inRange(int lowerBound , int upperBound) {
-        //algorithm for returning an integer in a specified range using the lower and upper bound parameters;
+        // A function for returning an integer in a specified range using the lower and upper bound parameters;
         return  (int)(((Math.random()*Math.floor(upperBound-lowerBound+1)+lowerBound))/5)*5;
     }
     private String checkCompanyName(String companyName){
